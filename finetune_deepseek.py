@@ -58,16 +58,16 @@ sweep_config = {
     },
     'parameters': {
         'learning_rate': {
-            'values': [5e-5, 3e-5, 1e-4]
+            'values': [3e-5, 1e-4]
         },
         'batch_size': {
-            'values': [2, 4]
+            'values': [2]
         },
         'warmup_steps': {
-            'values': [10, 20]
+            'values': [20]
         },
         'num_train_epochs': {
-            'values': [3, 4]
+            'values': [1]
         },
         'max_length': {
             'values': [1024, 2048]  # varying this to see if it's important to capture later details of papers, or if we can get away with less
