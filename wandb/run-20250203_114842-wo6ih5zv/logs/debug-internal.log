@@ -1,0 +1,7 @@
+{"time":"2025-02-03T11:48:44.1116503Z","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"C:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed\\wandb\\run-20250203_114842-wo6ih5zv\\logs\\debug-core.log"}
+{"time":"2025-02-03T11:48:44.3729262Z","level":"INFO","msg":"created new stream","id":"wo6ih5zv"}
+{"time":"2025-02-03T11:48:44.3734391Z","level":"INFO","msg":"stream: started","id":"wo6ih5zv"}
+{"time":"2025-02-03T11:48:44.3734391Z","level":"INFO","msg":"writer: Do: started","stream_id":"wo6ih5zv"}
+{"time":"2025-02-03T11:48:44.3740321Z","level":"INFO","msg":"sender: started","stream_id":"wo6ih5zv"}
+{"time":"2025-02-03T11:48:44.3740321Z","level":"INFO","msg":"handler: started","stream_id":"wo6ih5zv"}
+{"time":"2025-02-03T11:48:44.6689594Z","level":"INFO","msg":"Starting system monitor"}

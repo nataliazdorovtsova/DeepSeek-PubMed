@@ -1,0 +1,23 @@
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_setup.py:_flush():68] Configure stats pid to 34692
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\nzdor\.config\wandb\settings
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_setup.py:_flush():68] Loading settings from C:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\settings
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_init.py:setup_run_log_directory():637] Logging user logs to C:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_114842-wo6ih5zv\logs\debug.log
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to C:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_114842-wo6ih5zv\logs\debug-internal.log
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():756] calling init triggers
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():761] wandb.init called with sweep_config: {'batch_size': 2, 'learning_rate': 5e-05, 'max_length': 2048, 'num_train_epochs': 4, 'warmup_steps': 20}
+config: {'_wandb': {}}
+2025-02-03 11:48:42,495 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():789] starting backend
+2025-02-03 11:48:44,093 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():793] sending inform_init request
+2025-02-03 11:48:44,106 INFO    Thread-15 (_run_job):34692 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-03 11:48:44,109 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():808] backend started and connected
+2025-02-03 11:48:44,110 INFO    Thread-15 (_run_job):34692 [wandb_run.py:_config_callback():1253] config_cb None None {'batch_size': 2, 'learning_rate': 5e-05, 'max_length': 2048, 'num_train_epochs': 4, 'warmup_steps': 20}
+2025-02-03 11:48:44,117 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():901] updated telemetry
+2025-02-03 11:48:44,224 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():926] communicating run to backend with 180.0 second timeout
+2025-02-03 11:48:44,659 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():984] starting run threads in backend
+2025-02-03 11:48:45,215 INFO    Thread-15 (_run_job):34692 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-03 11:48:45,215 INFO    Thread-15 (_run_job):34692 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-03 11:48:45,215 INFO    Thread-15 (_run_job):34692 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-03 11:48:45,215 INFO    Thread-15 (_run_job):34692 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-03 11:48:45,218 INFO    Thread-15 (_run_job):34692 [wandb_init.py:init():1026] run started, returning control to user process
