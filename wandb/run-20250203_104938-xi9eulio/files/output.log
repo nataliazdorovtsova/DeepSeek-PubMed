@@ -1,0 +1,2 @@
+c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\transformers\training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(

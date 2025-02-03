@@ -1,0 +1,35 @@
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_setup.py:_flush():68] Configure stats pid to 29736
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_setup.py:_flush():68] Loading settings from C:\Users\nzdor\.config\wandb\settings
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_setup.py:_flush():68] Loading settings from c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\settings
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_104850-xkp2p6kx\logs\debug.log
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_104850-xkp2p6kx\logs\debug-internal.log
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C4D1536F50>
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():756] calling init triggers
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():761] wandb.init called with sweep_config: {'batch_size': 2, 'learning_rate': 0.0001, 'max_length': 1024, 'num_train_epochs': 4, 'warmup_steps': 20}
+config: {'_wandb': {}}
+2025-02-03 10:48:50,741 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():789] starting backend
+2025-02-03 10:48:51,970 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():793] sending inform_init request
+2025-02-03 10:48:51,976 INFO    Thread-26 (_run_job):29736 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-03 10:48:51,983 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():808] backend started and connected
+2025-02-03 10:48:51,986 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_config_callback():1253] config_cb None None {'batch_size': 2, 'learning_rate': 0.0001, 'max_length': 1024, 'num_train_epochs': 4, 'warmup_steps': 20}
+2025-02-03 10:48:51,995 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-03 10:48:51,997 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():901] updated telemetry
+2025-02-03 10:48:52,106 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():926] communicating run to backend with 180.0 second timeout
+2025-02-03 10:48:54,245 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():984] starting run threads in backend
+2025-02-03 10:48:55,003 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-03 10:48:55,004 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-03 10:48:55,005 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-03 10:48:55,006 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-03 10:48:55,008 INFO    Thread-26 (_run_job):29736 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-03 10:49:34,825 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_finish():2110] finishing run nzdorovtsova-university-of-cambridge/deepseek-finetuning/xkp2p6kx
+2025-02-03 10:49:34,840 ERROR   Thread-26 (_run_job):29736 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-03 10:49:34,840 INFO    Thread-26 (_run_job):29736 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-03 10:49:34,840 INFO    Thread-26 (_run_job):29736 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-03 10:49:34,845 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 1
+2025-02-03 10:49:34,845 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_restore():2332] restore
+2025-02-03 10:49:34,845 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_restore():2338] restore done
+2025-02-03 10:49:37,036 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-03 10:49:37,036 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-03 10:49:37,043 INFO    Thread-26 (_run_job):29736 [wandb_run.py:_footer_sync_info():3924] logging synced files

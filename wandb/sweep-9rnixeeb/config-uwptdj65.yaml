@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 4
+learning_rate:
+  value: 5.0e-05
+max_length:
+  value: 1024
+num_train_epochs:
+  value: 3
+warmup_steps:
+  value: 10

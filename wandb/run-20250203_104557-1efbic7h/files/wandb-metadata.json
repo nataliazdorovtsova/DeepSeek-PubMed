@@ -1,0 +1,42 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-02-03T10:45:59.179825Z",
+  "program": "c:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed\\finetune_deepseek.ipynb",
+  "codePath": "finetune_deepseek.ipynb",
+  "git": {
+    "remote": "https://github.com/nataliazdorovtsova/DeepSeek-PubMed.git",
+    "commit": "085e2e1cc927de6b7b3699baebc995f0b96608ae"
+  },
+  "email": "nzdorovtsova@outlook.com",
+  "root": "c:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed",
+  "host": "NataliaXPS15",
+  "executable": "c:\\Users\\nzdor\\anaconda3\\envs\\MachineLearning\\python.exe",
+  "codePathLocal": "finetune_deepseek.ipynb",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "485412040704",
+      "used": "239530131456"
+    }
+  },
+  "memory": {
+    "total": "16834945024"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "memoryTotal": "6439305216",
+      "cudaCores": 2560,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

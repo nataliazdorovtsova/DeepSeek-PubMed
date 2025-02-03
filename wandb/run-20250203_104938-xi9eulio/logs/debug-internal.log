@@ -1,0 +1,16 @@
+{"time":"2025-02-03T10:49:39.7476902Z","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed\\wandb\\run-20250203_104938-xi9eulio\\logs\\debug-core.log"}
+{"time":"2025-02-03T10:49:39.9386758Z","level":"INFO","msg":"created new stream","id":"xi9eulio"}
+{"time":"2025-02-03T10:49:39.9388448Z","level":"INFO","msg":"stream: started","id":"xi9eulio"}
+{"time":"2025-02-03T10:49:39.9388448Z","level":"INFO","msg":"writer: Do: started","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:49:39.9388448Z","level":"INFO","msg":"sender: started","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:49:39.9388448Z","level":"INFO","msg":"handler: started","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:49:40.346525Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-03T10:50:06.4839319Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-03T10:50:06.4870821Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-03T10:50:07.2401202Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-03T10:50:07.4198274Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-02-03T10:50:08.5153871Z","level":"INFO","msg":"stream: closing","id":"xi9eulio"}
+{"time":"2025-02-03T10:50:08.5153871Z","level":"INFO","msg":"handler: closed","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:50:08.5153871Z","level":"INFO","msg":"writer: Close: closed","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:50:08.5153871Z","level":"INFO","msg":"sender: closed","stream_id":"xi9eulio"}
+{"time":"2025-02-03T10:50:08.5169037Z","level":"INFO","msg":"stream: closed","id":"xi9eulio"}

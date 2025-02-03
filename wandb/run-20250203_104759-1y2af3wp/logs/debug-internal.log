@@ -1,0 +1,16 @@
+{"time":"2025-02-03T10:48:01.1465323Z","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed\\wandb\\run-20250203_104759-1y2af3wp\\logs\\debug-core.log"}
+{"time":"2025-02-03T10:48:01.4533359Z","level":"INFO","msg":"created new stream","id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:01.4533359Z","level":"INFO","msg":"stream: started","id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:01.4537332Z","level":"INFO","msg":"sender: started","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:01.4537332Z","level":"INFO","msg":"handler: started","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:01.4537332Z","level":"INFO","msg":"writer: Do: started","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:01.8517966Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-03T10:48:43.3927981Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-03T10:48:43.3954573Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-03T10:48:44.0548667Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-03T10:48:44.2589108Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-02-03T10:48:45.2989201Z","level":"INFO","msg":"stream: closing","id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:45.2989201Z","level":"INFO","msg":"handler: closed","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:45.2989201Z","level":"INFO","msg":"writer: Close: closed","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:45.3074441Z","level":"INFO","msg":"sender: closed","stream_id":"1y2af3wp"}
+{"time":"2025-02-03T10:48:45.3074441Z","level":"INFO","msg":"stream: closed","id":"1y2af3wp"}
