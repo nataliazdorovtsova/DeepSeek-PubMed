@@ -1,0 +1,8 @@
+{"time":"2025-02-03T10:30:33.4943849Z","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"c:\\Users\\nzdor\\OneDrive\\Desktop\\GitHub\\DeepSeek-PubMed\\wandb\\run-20250203_103032-8y1e4qvk\\logs\\debug-core.log"}
+{"time":"2025-02-03T10:30:33.7014984Z","level":"INFO","msg":"created new stream","id":"8y1e4qvk"}
+{"time":"2025-02-03T10:30:33.7025974Z","level":"INFO","msg":"stream: started","id":"8y1e4qvk"}
+{"time":"2025-02-03T10:30:33.7025974Z","level":"INFO","msg":"sender: started","stream_id":"8y1e4qvk"}
+{"time":"2025-02-03T10:30:33.7025974Z","level":"INFO","msg":"handler: started","stream_id":"8y1e4qvk"}
+{"time":"2025-02-03T10:30:33.7025974Z","level":"INFO","msg":"writer: Do: started","stream_id":"8y1e4qvk"}
+{"time":"2025-02-03T10:30:35.7384458Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-02-03T10:30:35.7389572Z","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity your_wandb_username not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

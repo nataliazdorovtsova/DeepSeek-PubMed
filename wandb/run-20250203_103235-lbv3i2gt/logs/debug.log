@@ -1,0 +1,57 @@
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103235-lbv3i2gt\logs\debug.log
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103235-lbv3i2gt\logs\debug-internal.log
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:init():756] calling init triggers
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'learning_rate': 5e-05, 'num_train_epochs': 3, 'batch_size': 2, 'max_length': 2048, 'lr_scheduler': 'cosine', 'warmup_steps': 10, '_wandb': {}}
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:init():789] starting backend
+2025-02-03 10:32:35,232 INFO    MainThread:15528 [wandb_init.py:init():793] sending inform_init request
+2025-02-03 10:32:35,242 INFO    MainThread:15528 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-03 10:32:35,243 INFO    MainThread:15528 [wandb_init.py:init():808] backend started and connected
+2025-02-03 10:32:35,245 INFO    MainThread:15528 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-03 10:32:35,246 INFO    MainThread:15528 [wandb_init.py:init():901] updated telemetry
+2025-02-03 10:32:35,344 INFO    MainThread:15528 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-03 10:32:37,172 ERROR   MainThread:15528 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 957, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}
+2025-02-03 10:33:02,201 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103302-1t8pbn8r\logs\debug.log
+2025-02-03 10:33:02,202 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103302-1t8pbn8r\logs\debug-internal.log
+2025-02-03 10:33:02,203 INFO    MainThread:15528 [wandb_init.py:init():756] calling init triggers
+2025-02-03 10:33:02,203 INFO    MainThread:15528 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'learning_rate': 5e-05, 'num_train_epochs': 3, 'batch_size': 2, 'max_length': 2048, 'lr_scheduler': 'cosine', 'warmup_steps': 10, '_wandb': {}}
+2025-02-03 10:33:02,203 INFO    MainThread:15528 [wandb_init.py:init():789] starting backend
+2025-02-03 10:33:02,203 INFO    MainThread:15528 [wandb_init.py:init():793] sending inform_init request
+2025-02-03 10:33:02,209 INFO    MainThread:15528 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-03 10:33:02,211 INFO    MainThread:15528 [wandb_init.py:init():808] backend started and connected
+2025-02-03 10:33:02,214 INFO    MainThread:15528 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-03 10:33:02,215 INFO    MainThread:15528 [wandb_init.py:init():901] updated telemetry
+2025-02-03 10:33:02,284 INFO    MainThread:15528 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-03 10:34:32,925 ERROR   MainThread:15528 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 950, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103802-f1bcn6go\logs\debug.log
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\nzdor\OneDrive\Desktop\GitHub\DeepSeek-PubMed\wandb\run-20250203_103802-f1bcn6go\logs\debug-internal.log
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:init():756] calling init triggers
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'learning_rate': 5e-05, 'num_train_epochs': 3, 'batch_size': 2, 'max_length': 2048, 'lr_scheduler': 'cosine', 'warmup_steps': 10, '_wandb': {}}
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:init():789] starting backend
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [wandb_init.py:init():793] sending inform_init request
+2025-02-03 10:38:02,224 INFO    MainThread:15528 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-03 10:38:02,237 INFO    MainThread:15528 [wandb_init.py:init():808] backend started and connected
+2025-02-03 10:38:02,240 INFO    MainThread:15528 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-03 10:38:02,241 INFO    MainThread:15528 [wandb_init.py:init():901] updated telemetry
+2025-02-03 10:38:02,314 INFO    MainThread:15528 [wandb_init.py:init():926] communicating run to backend with 180.0 second timeout
+2025-02-03 10:41:02,620 ERROR   MainThread:15528 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 1461, in init
+    return wi.init(run_settings, run_config)
+  File "c:\Users\nzdor\anaconda3\envs\MachineLearning\lib\site-packages\wandb\sdk\wandb_init.py", line 950, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 180.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
